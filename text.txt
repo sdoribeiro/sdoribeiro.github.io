@@ -1,0 +1,60 @@
+C:\Users\sandr\CS50>git clone https://github.com/sdoribeiro/sdoribeiro.github.io.git
+Cloning into 'sdoribeiro.github.io'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\sandr\CS50>dir
+ Volume in drive C has no label.
+ Volume Serial Number is DC10-FB8F
+
+ Directory of C:\Users\sandr\CS50
+
+01/24/2023  10:36 PM    <DIR>          .
+01/24/2023  10:20 PM    <DIR>          ..
+01/24/2023  10:25 PM               469 Git Lesson.txt
+01/24/2023  09:57 PM               364 hello.html
+01/24/2023  10:36 PM    <DIR>          sdoribeiro.github.io
+               2 File(s)            833 bytes
+               3 Dir(s)  426,100,477,952 bytes free
+
+C:\Users\sandr\CS50>cd sdoribeiro.github.io
+
+C:\Users\sandr\CS50\sdoribeiro.github.io>dir
+ Volume in drive C has no label.
+ Volume Serial Number is DC10-FB8F
+
+ Directory of C:\Users\sandr\CS50\sdoribeiro.github.io
+
+01/24/2023  10:36 PM    <DIR>          .
+01/24/2023  10:36 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  426,100,346,880 bytes free
+
+C:\Users\sandr\CS50\sdoribeiro.github.io>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\sandr\CS50\sdoribeiro.github.io>git add index.html
+
+C:\Users\sandr\CS50\sdoribeiro.github.io>git commit -m "First commit"
+[main (root-commit) f8c9964] First commit
+ 1 file changed, 12 insertions(+)
+ create mode 100644 index.html
+
+C:\Users\sandr\CS50\sdoribeiro.github.io>git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 419 bytes | 419.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sdoribeiro/sdoribeiro.github.io.git
+ * [new branch]      main -> main
+
+C:\Users\sandr\CS50\sdoribeiro.github.io>
